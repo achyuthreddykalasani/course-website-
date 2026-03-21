@@ -1,22 +1,25 @@
 <?xml version="1.0"?>
 
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="courses.xsd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <course>
-        <title>Web Development</title>
-        <instructor>John</instructor>
-        <price>999</price>
-        <rating>4.5</rating>
-        <duration>6 weeks</duration>
-    </course>
+<xs:element name="courses">
+    <xs:complexType>
+        <xs:sequence>
 
-    <course>
-        <title>Python Programming</title>
-        <instructor>Alice</instructor>
-        <price>799</price>
-        <rating>4.7</rating>
-        <duration>5 weeks</duration>
-    </course>
+            <xs:element name="course" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string"/>
+                        <xs:element name="instructor" type="xs:string"/>
+                        <xs:element name="price" type="xs:int"/>
+                        <xs:element name="rating" type="xs:decimal"/>
+                        <xs:element name="duration" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
 
-</courses>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
