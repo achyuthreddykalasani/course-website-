@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<courses>
+    <course>
+        <title>Web Development</title>
+        <instructor>John</instructor>
+        <price>999</price>
+    </course>
+</courses>
