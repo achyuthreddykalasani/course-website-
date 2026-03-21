@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: lightblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+button:hover {
+    background: green;
+    color: white;
+}
