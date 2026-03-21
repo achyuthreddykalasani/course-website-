@@ -1,8 +1,22 @@
 <?xml version="1.0"?>
-<courses>
+
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="courses.xsd">
+
     <course>
         <title>Web Development</title>
         <instructor>John</instructor>
         <price>999</price>
+        <rating>4.5</rating>
+        <duration>6 weeks</duration>
     </course>
+
+    <course>
+        <title>Python Programming</title>
+        <instructor>Alice</instructor>
+        <price>799</price>
+        <rating>4.7</rating>
+        <duration>5 weeks</duration>
+    </course>
+
 </courses>
