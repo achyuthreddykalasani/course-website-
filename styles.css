@@ -1,0 +1,92 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgb(147, 114, 136);
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: lightblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+button:hover {
+    background: green;
+    color: white;
+}
+ .course-card {
+                display: flex;
+                gap: 20px;
+                align-items: flex-start;
+            }
+.course-card img {
+                flex-shrink: 0;
+            }
+.course-info {
+                flex: 1;
+            }
+/* ===== COMMON FORM STYLE (Login + Register) ===== */
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 80px auto;
+    border: 1px solid gray; /* reuse your card style */
+}
+
+/* reuse input style */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+/* reuse button hover already written */
+
+/* message */
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+.center-text {
+    text-align: center;
+}
