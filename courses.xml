@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="courses.xsd">
+
+    <course>
+        <title>C Programming</title>
+        <instructor>Harry</instructor>
+        <description>C Tutorial + Complete C Language Notes</description>
+        <duration>10hr 53min</duration>
+        <price>Free</price>
+        <image>course1.jpeg</image>
+        <link>https://youtu.be/_MF8L7ZxwRE</link>
+    </course>
+
+    <course>
+        <title>Programming Basics</title>
+        <instructor>Mosh</instructor>
+        <description>Clear explanations and real examples</description>
+        <duration>1 hr 22 min</duration>
+        <price>Free</price>
+        <image>course2.jpeg</image>
+        <link>https://youtu.be/ZzaPdXTrSb8</link>
+    </course>
+
+    <course>
+        <title>DSA Course</title>
+        <instructor>Striver</instructor>
+        <description>Complete DSA roadmap</description>
+        <duration>300+ videos</duration>
+        <price>Free</price>
+        <image>course3.jpeg</image>
+        <link>https://youtu.be/rHn9af16O_E</link>
+    </course>
+
+</courses>
